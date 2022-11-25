@@ -5,7 +5,6 @@ using namespace std;
 
 const double theta = 0.001;
 const double reward = -1.0;
-const double gamma = 1.0;
 const int N = 10;
 ///// we can change the goal locations by changing the continue part in main loop and final direction loop
 double next_state_max_v(double V[N][N],int x,int y){
